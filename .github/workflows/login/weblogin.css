@@ -1,0 +1,115 @@
+
+		body {
+			background-color: #EFEFEF;
+			font-family: Arial, sans-serif;
+		}
+		nav {
+            margin-top: 0%;
+			background-color: #585858;
+			color: #FFFFFF;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			padding: 10px;
+		}
+		nav h1 {
+			margin: 0;
+			font-size: 24px;
+			font-weight: normal;
+		}
+		nav ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			display: flex;
+		}
+		nav li {
+			margin-left: 10px;
+		}
+		nav a {
+			color: #FFFFFF;
+			text-decoration: none;
+			padding: 5px;
+			border-radius: 5px;
+			transition: background-color 0.3s ease;
+		}
+		nav a:hover {
+			background-color: #333333;
+		}
+		form {
+			background-color: #EFEFEF;
+			max-width: 500px;
+            margin: 80px auto 0;
+			padding: 20px;
+			border-radius: 10px;
+			box-shadow: 0 0 10px rgba(0,0,0,0.2);
+		}
+		form label {
+			display: block;
+			margin-bottom: 5px;
+		}
+		form input {
+            display: block;
+            width: 100%;
+            padding: 5px;
+            margin-bottom: 10px;
+            border: none;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.2);
+            font-size: 14px;
+            color: #130d0d;
+		}
+		form input[type="submit"] {
+			background-color: #ec1d1d;
+			color: #FFFFFF;
+			cursor: pointer;
+		}
+		form input[type="submit"]:hover {
+			background-color: #C10000;
+		}
+		form .oauth {
+			display: flex;
+			flex-direction: column;
+            justify-content: center; /* center the items horizontally */
+			align-items: center;
+			margin-top: 20px;
+		}
+		form .oauth img {
+            width: 30px; /* adjust as needed */
+            height: 40px; /* adjust as needed */
+            border-radius: 10%;
+        }
+    
+		form .password-confirm {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+		form .password-confirm input {
+			margin-bottom: 10px;
+		}
+        .login-title {
+        text-align: center;
+        }
+
+        .container {
+        background-color: #d11515;
+        padding: 5px;
+        padding-bottom: 5px;
+        width: 600px;
+        height: 550px;
+        margin: 50px auto 0;
+        }
+
+        .column{
+            float: left;
+            width: 25%;
+            padding: 10px;
+        }
+
+        .row::after{
+            content:"";
+            clear: both;
+            display:table;
+
+        }

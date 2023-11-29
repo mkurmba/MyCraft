@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="websignup.css">
+	<title>Portfolio Sign Up</title>
+	
+</head>
+<body>
+	<nav>
+		<h1>Portfolio Website</h1>
+		<ul>
+
+			<li><a href="#"; onclick = "window.location.href='webhomepage.html';">Home</a></li>
+			<li><a href="#" ; onclick = "window.location.href='webabout.html';">About</a></li>
+			<li><a href="#">How to Use</a></li>
+			<li><a href="#"; onclick = "window.location.href='weblogin.html';">Login</a></li>
+		</ul>
+	</nav>
+    <div class="container">
+    
+        <form action="register.php" method="post">
+            <h2 class="signup-title">Sign Up</h2>
+            <label for="first-name">First Name:</label>
+            <input type="text" id="first-name" name="first-name" required>
+            <label for="last-name">Last Name:</label>
+            <input type="text" id="last-name" name="last-name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="loginname">User Name:</label>
+            <input type="text" id="loginname" name="loginname" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <div class="password-confirm">
+                <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm Password" required>
+                <span id="password-match"></span>
+            </div>
+            <input type="submit" value="Sign Up"; onclick = "window.location.href='signup.html';">
+            <div class="oauth">
+               
+                <div class="row">
+                    <div class="column">
+                        <p>Or sign up with:</p>
+                    </div>
+                    <div class ="column">
+                        <img src="applelogo.png" alt="Apple" style="width:90%"; onclick= "window.location.href='https://support.apple.com/en-us/HT204053';">
+                    </div>
+                    <div class="column">
+                        <img src="googlelogo.png" alt="Google" style="width:90%" ; onclick= "window.location.href='https://accounts.google.com';">
+                    </div>
+                </div>
+                <a href="weblogin.html" title="Log In">Already have an Account?</a>
+            </div>
+        </form>  
+    </div>
+    </body>
+    </html>
